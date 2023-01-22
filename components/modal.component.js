@@ -22,7 +22,7 @@ function mostrarEstadisticas(estadisticas) {
     <p class="text-lg text-left font-medium text-gray-900 dark:text-white stat_pokemon_item">HP</p>
   
   <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white" style="width: ${estadisticasObj.hp.base_stat}%"> ${estadisticasObj.hp.base_stat}%</div>
+    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white text_estadistica" style="width: ${estadisticasObj.hp.base_stat}% "> ${estadisticasObj.hp.base_stat}%</div>
   </div>
   </div>
   
@@ -30,7 +30,7 @@ function mostrarEstadisticas(estadisticas) {
   <p class="text-lg text-left font-medium text-gray-900 dark:text-white stat_pokemon_item">Attack</p>
   
   <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white" style="width: ${estadisticasObj.attack.base_stat}%"> ${estadisticasObj.attack.base_stat}%</div>
+    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white text_estadistica" style="width: ${estadisticasObj.attack.base_stat}%"> ${estadisticasObj.attack.base_stat}%</div>
   </div>
   </div>
   
@@ -38,7 +38,7 @@ function mostrarEstadisticas(estadisticas) {
   <p class="text-lg text-left font-medium text-gray-900 dark:text-white stat_pokemon_item">Defense</p>
   
   <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white" style="width: ${estadisticasObj.defense.base_stat}%"> ${estadisticasObj.defense.base_stat}%</div>
+    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white text_estadistica" style="width: ${estadisticasObj.defense.base_stat}%"> ${estadisticasObj.defense.base_stat}%</div>
   </div>
   </div>
   
@@ -46,7 +46,7 @@ function mostrarEstadisticas(estadisticas) {
   <p class="text-lg text-left font-medium text-gray-900 dark:text-white stat_pokemon_item">Special Attack</p>
   
   <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white" style="width: ${estadisticasObj.special_attack.base_stat}%"> ${estadisticasObj.special_attack.base_stat}%</div>
+    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white text_estadistica" style="width: ${estadisticasObj.special_attack.base_stat}%"> ${estadisticasObj.special_attack.base_stat}%</div>
   </div>
   </div>
   
@@ -54,7 +54,7 @@ function mostrarEstadisticas(estadisticas) {
   <p class="text-lg text-left font-medium text-gray-900 dark:text-white stat_pokemon_item">Special Defense</p>
   
   <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white" style="width: ${estadisticasObj.special_defense.base_stat}%"> ${estadisticasObj.special_defense.base_stat}%</div>
+    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white text_estadistica" style="width: ${estadisticasObj.special_defense.base_stat}%"> ${estadisticasObj.special_defense.base_stat}%</div>
   </div>
   </div>
   
@@ -62,7 +62,7 @@ function mostrarEstadisticas(estadisticas) {
   <p class="text-lg text-left font-medium text-gray-900 dark:text-white stat_pokemon_item">Speed</p>
   
   <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
-    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white" style="width: ${estadisticasObj.speed.base_stat}%"> ${estadisticasObj.speed.base_stat}%</div>
+    <div class="bg-blue-600 rounded-full text-center text-xl text-gray-900 dark:text-white text_estadistica" style="width: ${estadisticasObj.speed.base_stat}%"> ${estadisticasObj.speed.base_stat}%</div>
   </div>
   </div>
   

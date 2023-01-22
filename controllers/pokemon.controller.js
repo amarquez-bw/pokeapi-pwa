@@ -1,4 +1,4 @@
-import { baseUrl, main_container, cardsContainer, search_navbar } from "./main.js";
+import { baseUrl, main_container, cardsContainer, search_navbar, search_navbar_mb } from "./main.js";
 import {mostrarModal, cerrarModal} from '../components/modal.component.js';
 import {spinner} from '../components/spinner.component.js'
 import { mostrarPokemones } from "../components/cards.component.js";
@@ -45,11 +45,21 @@ export function typesIterador(array) {
 }
 
 export async function parametrosBusqueda(e) {
-  if (e.code == "Enter") {
+
+  if (e.key == "Enter") {
     limpiaHTML(cardsContainer);
     limpiaHTML(main_container);
     spinner();
-    const termino = search_navbar.value;
+    let termino = search_navbar.value;
+
+    if(search_navbar.value){
+      termino = search_navbar.value;
+    }
+
+    if(search_navbar_mb.value){
+      termino = search_navbar_mb.value;
+    }
+    
 
     let query = baseUrl + `/pokemon/${termino}`;
 
@@ -61,6 +71,7 @@ export async function parametrosBusqueda(e) {
       .catch((error) => mostrarErrores(error, termino));
 
     search_navbar.value = "";
+    search_navbar_mb.value = "";
   }
 }
 

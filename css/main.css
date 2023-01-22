@@ -100,7 +100,65 @@
   justify-content: center; */
 }
 
+.img_pokemon_not_found{
+  height: 70%;
+  width: 70%;
+}
+
 .profile_view{
   justify-content: center;
   display: flex
 }
+
+.align_not_found{
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: 0%;
+}
+
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+  .pokemon_item_details{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    width: 110%;
+    margin-top: -10%;
+  }
+
+  .text_estadistica{
+    display: block;
+    font-size: medium;
+    font-weight: bold;
+    color: red;
+    height: 1.7rem;
+  }
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+ } 
