@@ -16,7 +16,7 @@ function mostrarEstadisticas(estadisticas) {
   };
 
   estadistica.innerHTML = `
-      <div class="container_stats_items">
+      <div class=" container_stats_items">
   
     <div class="">
     <p class="text-lg text-left font-medium text-gray-900 dark:text-white stat_pokemon_item">HP</p>
@@ -86,6 +86,7 @@ export function mostrarModal(data) {
   mostrarEstadisticas(data.stats);
 
   name_pokemon.innerText = data.name.toUpperCase();
+  name_pokemon.classList.add("item-modal-pokemon")
   imagenPokemon.innerHTML = `<img class="pokemon_item_details p-8 rounded-t-lg" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${data.id}.png" alt="${data.name}" />`;
 
   // options with default values

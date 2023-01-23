@@ -10,7 +10,7 @@ export function mostrarPokemones(pokemon) {
   const nodo = document.createElement("DIV");
 
   nodo.innerHTML = `
-<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+<div class="animate__animated animate__backInUp max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
         <img loading="lazy" class="rounded-t-lg" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${
           pokemon.id
