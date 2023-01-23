@@ -50,14 +50,14 @@ export async function parametrosBusqueda(e) {
     limpiaHTML(cardsContainer);
     limpiaHTML(main_container);
     spinner();
-    let termino = search_navbar.value;
+    let termino = search_navbar.value.trim();
 
     if(search_navbar.value){
-      termino = search_navbar.value;
+      termino = search_navbar.value.trim().toLowerCase();
     }
 
     if(search_navbar_mb.value){
-      termino = search_navbar_mb.value;
+      termino = search_navbar_mb.value.trim().toLowerCase();
     }
     
 
